@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "image-classification", "image-classification", "{533EFEEA-061E-470F-9EC3-5FABBAB5F9CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C-Sharp", "C-Sharp", "{82EC92F0-1149-464C-AA50-45656E11BC3F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test-classifier", "image-classification\C-Sharp\test-classifier\test-classifier.csproj", "{EB8B6E91-86D5-42DB-B750-6206D4456C6F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "train-classifier", "image-classification\C-Sharp\train-classifier\train-classifier.csproj", "{039DD864-5153-4D2C-A616-0BE320FE6125}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB8B6E91-86D5-42DB-B750-6206D4456C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8B6E91-86D5-42DB-B750-6206D4456C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8B6E91-86D5-42DB-B750-6206D4456C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8B6E91-86D5-42DB-B750-6206D4456C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{039DD864-5153-4D2C-A616-0BE320FE6125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{039DD864-5153-4D2C-A616-0BE320FE6125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{039DD864-5153-4D2C-A616-0BE320FE6125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{039DD864-5153-4D2C-A616-0BE320FE6125}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82EC92F0-1149-464C-AA50-45656E11BC3F} = {533EFEEA-061E-470F-9EC3-5FABBAB5F9CA}
+		{EB8B6E91-86D5-42DB-B750-6206D4456C6F} = {82EC92F0-1149-464C-AA50-45656E11BC3F}
+		{039DD864-5153-4D2C-A616-0BE320FE6125} = {82EC92F0-1149-464C-AA50-45656E11BC3F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E68ED8B9-7ADF-405A-A3BB-6796CEC1F224}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = test_classifier
+build_property.ProjectDir = C:\dev\PE\image-classification\image-classification\C-Sharp\test-classifier\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
